@@ -18,7 +18,7 @@ _putchar(c);
 ch++;
 }
 {
-putchar('/n')
+_putchar('/n')
 i++;
 }
 }
