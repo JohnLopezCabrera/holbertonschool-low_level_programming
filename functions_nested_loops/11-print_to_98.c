@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *print_to_98 - prints numbers from n to 98,
- *new line 
- *@n: print from this number
- */
+*print_to_98 - prints numbers from n to 98,
+*new line
+*@n: print from this number
+*/
 void print_to_98(int n)
 {
 int i, j;
