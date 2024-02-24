@@ -15,7 +15,7 @@ c = 'a';
 while (c <= 'z')
 {
 _putchar(c);
-ch++;
+c++;
 }
 {
 _putchar('/n')
