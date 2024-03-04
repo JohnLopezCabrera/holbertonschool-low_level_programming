@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _memcopy - function
- * @dest: pointer to the memory area to be filled
- * @src: the value to be set
- * @n: number of bytes to be set to the value
- * * Return: a pointer to the memory area dest
+ * _memcopy - copy 
+ * @dest: dest mem area
+ * @src: mem area
+ * @n: bytes
+ * * Return: pointer dest
  */
 char *_memcopy(char *dest, char *src, unsigned int n)
 	{
