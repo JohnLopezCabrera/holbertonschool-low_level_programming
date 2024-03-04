@@ -6,7 +6,7 @@
  * @n: bytes
  * * Return: pointer dest
  */
-char *_memcopy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 	{
 	unsigned int i;
 
