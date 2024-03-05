@@ -19,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 		ret = 0;
 		for (n = 0; accept[j] != '\0'; n++)
 		{
-			if (s[i] == accept[j])
+			if (s[i] == accept[n])
 			{
 				f++;
 				ret = 1;
