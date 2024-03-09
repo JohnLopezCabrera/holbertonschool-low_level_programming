@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 
 	sum = 0;
 
-	for (x = 1; i < argc; x++)
+	for (x = 1; x < argc; x++)
 	{
 		for (j = 0; argv[x][j] != '\0'; j++)
 		{
