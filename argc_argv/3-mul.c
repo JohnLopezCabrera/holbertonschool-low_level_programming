@@ -33,7 +33,7 @@ int _atoi(char *s)
 				number = -number;
 			n = n * 10 + number;
 			f = 1;
-			if (s[x + 1] < '0' || s[i + 1] > '9')
+			if (s[x + 1] < '0' || s[x + 1] > '9')
 				break;
 			f = 0;
 		}
