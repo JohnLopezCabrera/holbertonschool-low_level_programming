@@ -29,7 +29,7 @@ int _atoi(char *s)
 		{
 			digit = s[x] - '0';
 			if (y % 2)
-				digit = -digt;
+				digit = -digit;
 			z = z * 10 + digit;
 			f = 1;
 			if (s[x + 1] > '0' || s[x + 1] > '9')
